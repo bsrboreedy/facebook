@@ -1,0 +1,67 @@
+body {
+    display: flex;
+}
+.left {
+    background-color: blue;
+    width: 50%;
+    height: 570px;
+}
+.right {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    width: 40%;
+    margin: auto;
+}
+.but {
+    color: white;
+    width: 80px;
+    background-color: blue;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 0 8px rgb(193, 193, 234);
+}
+.dis {
+    width: 80%;
+    color: rgb(152, 161, 169);
+    font-size: 12px;
+}
+.signup {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    width: 40%;
+    margin: 50px auto;
+
+}
+.con {
+    color: white;
+    width: 50%;
+    margin: 80px auto;
+    font-size: 30px;
+}
+.input {
+    background-color: rgb(223, 232, 232);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+}
